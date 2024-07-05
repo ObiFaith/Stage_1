@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faith Obi | Personal Webpage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="gradient"></div>
+  <main>
+    <div class="flex profile justify-between">
+      <div class="profile-container">
+        <img data-testid="slackProfilePicture" src="./imgs/profile.jpg" alt="profile_picture">
+      </div>
+      <div class="flex justify-between w-100 intro align-center">
+        <div class="intro-text">
+          <div>
+            <h1 class="inline-block">Faith Obi</h1>
+            <span data-testid="slackDisplayName">(Faith_Dev_)</span>
+          </div>
+          <p>I'm a Frontend Web Developer based in Lagos, Nigeria.</p>
+        </div>
+        <div class="flex align-center intro-links">
+          <a target="_blank" class="btn inline-block" href="https://github.com/ObiFaith">View Portfolio</a>
+          <a target="_blank" class="btn btn-primary flex" href="https://www.linkedin.com/in/faithdev/">
+            <svg class="fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>
+            Follow
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about-intro">
+      <h2>Experience</h2>
+      <p>I specialise in Responisve Design, Javascript, ReactJS and TypeScript.</p>
+    </div>
+    <hr>
+    <div class="flex justify-between about">
+      <div>
+        <h3>About Me</h3>
+        <p>Faith Obi is a passionate Frontend Web Developer based in Lagos, Nigeria. Currently, she is advancing her skills in React through an intensive course at KodeCamp, with a focus on building high-quality, user-centric web products. Her expertise lies in JavaScript, React, and Tailwind CSS, where she excels in creating visually appealing and responsive interfaces.<br><br>
+          She graduated from the University of Nigeria, Nsukka, with a B.Sc in Computer Science. During her academic journey, Faith interned at Chidono Limited as a Frontend Web Developer. There, she revamped existing websites to enhance user interface and user experience, primarily working on ASP.NET projects. This experience solidified her passion for frontend development and honed her skills in creating seamless digital experiences.
+      </div>
+      <div class="flex justify-between">
+        <div>
+          <div class="mb-4">
+            <p class="font-medium">Location</p>
+            <h4>Lagos, Nigeria</h4>
+          </div>
+          <div>
+            <p class="font-medium">Email</p>
+            <a target="_blank" data-testid="slackEmail" href="mailto:obifth@gmail.com">obifth@gmail.com</a>
+          </div>
+        </div>
+        <div>
+          <div class="mb-4">
+            <p class="font-medium">Current Day</p>
+            <p data-testid="currentDay"></p>
+          </div>
+          <div>
+            <p class="font-medium">Current Time (UTC)</p>
+            <p data-testid="currentTimeUTC"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <h3 class="mb-2">Next Goals</h3>
+      <div class="flex justify-between gap-5 goals">
+        <div class="w-100">
+          <h4>Year 1 (2025)</h4>
+          <p>In the first year, my primary focus will be on advancing my backend development skills. I will complete my current course and work on several projects to gain hands-on experience with server-side programming, databases, and API integration. Concurrently, I will apply for and enroll in the CyberSafe Fellowship to learn Penetration Testing. This will involve dedicating time to studying cybersecurity principles, tools, and techniques. I will also attend workshops, webinars, and industry conferences to network with professionals and stay updated on the latest trends. By the end of the year, I aim to be proficient in both backend development and penetration testing.</p>
+        </div>
+        <div class="w-100">
+          <h4>Year 2 (2026)</h4>
+          <p>In the second year, I will focus on integrating my frontend and backend skills to work as a Full Stack Developer. I will undertake complex projects that require a combination of these skills, ensuring I can seamlessly handle both aspects of web development. Additionally, I will continue my cybersecurity education, applying the penetration testing knowledge gained from the CyberSafe Fellowship in real-world scenarios. By mid-year, I will start researching and preparing applications for a master’s degree in CyberSecurity in the United States. This includes studying for necessary exams, gathering recommendation letters, and writing personal statements to strengthen my applications.</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="mb-4">
+      <h3 class="mb-2">Relevant Links</h3>
+      <div class="flex justify-between links">
+        <a data-testid="hngLink" target="_blank" href="https://www.hng.tech/learn.com">Expert Courses Just For You</a>
+        <a data-testid="keywordLink" target="_blank" href="https://keyword.dog/">The Quickest Way to Dominate Search Rankings</a>
+        <a data-testid="scrapeanywebLink" target="_blank" href="https://scrapeanyweb.site/">Scrape any website, right from your desktop</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>

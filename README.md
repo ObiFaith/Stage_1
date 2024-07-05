@@ -1,2 +1,1 @@
-# Stage_1
- HNG_11 Stage 1
+This repository is to test my HTML, CSS and JavaScript skills.
