@@ -26,7 +26,7 @@ main{width: min(90%, 100% - 3rem); margin-inline: auto; display: grid; gap: 1rem
 .btn{font-weight: 600; letter-spacing: .5px; text-align: center; padding: .5rem 1rem; border-radius: .35rem; border: 1px solid #d3d4d9; color: #394050; box-shadow: 0 0 2px rgba(0, 0, 0, .05);}
 .btn-primary{background-color: #7f56da; color: #fff}
 .gradient{background: url('./imgs/background-pattern-mobile.svg') no-repeat center/cover; min-height: 20vh;}
-.profile{min-width: 150px; min-height: 150px; border-radius: 100%; position: absolute; top: -50px; background: url('./imgs/profile.JPG') no-repeat top center/cover; border: 4px solid #fff; box-shadow: 0 0 8px rgba(0, 0, 0, .4);}
+.profile{min-width: 150px; min-height: 150px; border-radius: 100%; position: absolute; top: -50px; background: url('./imgs/profile.jpg') no-repeat top center/cover; border: 4px solid #fff; box-shadow: 0 0 8px rgba(0, 0, 0, .4);}
 .intro{padding: 112px 0 1rem; }
 
 @media screen and (max-width: 768px) {
